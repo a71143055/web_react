@@ -28,11 +28,27 @@ class NotificationList extends React.Component{
 
         timer = setInterval(() => {
             if(notifications.length < reservedNotification.length){
-
+                const index = notifications.length;
+                notifications.push(reservedNotification[index]);
+                this.setState({
+                    notifications: notifications,
+                });
             }else{
                 clearInterval(timer);
             }
-        }, 1000)
+        }, 1000);
+    }
+
+    render() {
+        return(
+            <div>
+                {
+                    this.state.notifications.map((notification) => {
+                        return <Notification message={notification.message}/>
+                    })
+                }
+            </div>
+        )
     }
 }
 
