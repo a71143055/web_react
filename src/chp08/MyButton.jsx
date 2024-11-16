@@ -1,6 +1,6 @@
 import React from "react";
 
-class MyButton extends React {
+class MyButton extends React.Component{
     constructor(props) {
         super(props);
 
