@@ -8,11 +8,13 @@ import Library from './chp03/Library';
 import Book from './chp03/Book';
 import Clock from './chp04/Clock';
 import CommentList from './chp05/CommentList';
+import Notification from './chp06/Notification';
+import NotificationList from './chp06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>
 );
 
