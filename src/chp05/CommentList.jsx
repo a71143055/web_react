@@ -11,4 +11,4 @@ function CommentList(props) {
     );
 }
 
-export default CommentList
+export default CommentList;
