@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import './chp03/Book.css'
 import reportWebVitals from './reportWebVitals';
 import Library from './chp03/Library';
+import Book from './chp03/Book';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
