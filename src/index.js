@@ -11,11 +11,12 @@ import CommentList from './chp05/CommentList';
 import Notification from './chp06/Notification';
 import NotificationList from './chp06/NotificationList';
 import Accommodate from './chp07/Accommodate';
+import Toggle from './chp08/Toggle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <Toggle />
   </React.StrictMode>
 );
 
