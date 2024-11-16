@@ -16,7 +16,7 @@ class MyButton extends React.Component{
     render() {
         return(
             <button onClick={() => this.handleClick()}>
-                {this.state.isToggleOn ? "켜짐" : "꺼짐"}
+                My Button {this.state.isToggleOn ? "켜짐" : "꺼짐"}
             </button>
         );
     }
