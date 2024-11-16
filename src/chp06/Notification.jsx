@@ -27,6 +27,24 @@ class Notification extends React.Component {
     componentDidMount() {
         console.log("componentDidMount() called");
     }
+
+    componentDidUpdate() {
+        console.log("componentDidUpdate() called");
+    }
+
+    componentWillUnmount() {
+        console.log("componentWillUnmount() called");
+    }
+
+    render() {
+        return(
+            <div style={styles.wrapper}>
+                <span style={styles.messageText}>
+                    {this.props.message}
+                </span>
+            </div>
+        )
+    }
 }
 
 export default Notification;
