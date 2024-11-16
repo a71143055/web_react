@@ -12,11 +12,12 @@ import Notification from './chp06/Notification';
 import NotificationList from './chp06/NotificationList';
 import Accommodate from './chp07/Accommodate';
 import Toggle from './chp08/Toggle';
+import MyButton from './chp08/MyButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Toggle />
+    <MyButton />
   </React.StrictMode>
 );
 
