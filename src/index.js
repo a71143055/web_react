@@ -6,11 +6,12 @@ import './chp03/Book.css'
 import reportWebVitals from './reportWebVitals';
 import Library from './chp03/Library';
 import Book from './chp03/Book';
+import Clock from './chp04/Clock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Library />
+    <Clock />
   </React.StrictMode>
 );
 
