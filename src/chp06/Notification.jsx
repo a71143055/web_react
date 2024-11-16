@@ -21,17 +21,11 @@ class Notification extends React.Component {
 
         this.state = {
 
-        }
+        };
     }
 
-    render() {
-        return(
-            <div style={styles.wrapper}>
-                <span style={styles.messageText}>
-                    {this.props.message}
-                </span>
-            </div>
-        )
+    componentDidMount() {
+        console.log("componentDidMount() called");
     }
 }
 
