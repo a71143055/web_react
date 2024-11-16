@@ -40,8 +40,8 @@ function Comment(props) {
                     src="https://upload.wikipedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
                 />
                 <div style={styles.contentContainer}>
-                    <span style={styles.nameText}>민경주</span>
-                    <span style={styles.commentText}>React Component내에서 스타일 정의해서 사용해 봅니다.</span>
+                    <span style={styles.nameText}>{props.name}</span>
+                    <span style={styles.commentText}>{props.comment}</span>
                 </div>
             </div>
         </div>
