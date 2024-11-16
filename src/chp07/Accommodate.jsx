@@ -23,6 +23,7 @@ function Accommodate(props) {
             <p>{`총 ${count}명 수용했습니다.`}</p>
             <button onClick={increaseCount} disabled={isFull}>수용시설에 입장</button>
             <button onClick={decreaseCount}>수용시설에 퇴장</button>
+            {isFull && <p style={{color : "red"}}>정원이 가득찼습니다.</p>}
         </div>
     );
 }
