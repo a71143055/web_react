@@ -10,6 +10,6 @@ function MyButton(props) {
     )
 }
 
-const domContainer = document.querySelector('root');
+const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
 root.render(React.createElement(MyButton));
