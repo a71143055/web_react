@@ -17,7 +17,7 @@ class ConfirmButton2 extends React.Component{
     render() {
         return(
             <button onClick={this.handleConfirm} disabled={this.state.isConfirmed}>
-                ConfirmButton {this.state.isConfirmed? "확인됨" : "확인하기"}
+                ConfirmButton2 {this.state.isConfirmed? "확인됨" : "확인하기"}
             </button>
         )
     }
