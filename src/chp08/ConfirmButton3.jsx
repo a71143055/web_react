@@ -4,7 +4,7 @@ function ConfirmButton3(props){
     const[isConfirmed, setIsConfirmed] = useState(false);
 
     function handleConfirm() {
-        setIsConfirmed((prevIsConfirmed) => !prevIsState);
+        setIsConfirmed((prevIsConfirmed) => !prevIsConfirmed);
     }
 
         return(
