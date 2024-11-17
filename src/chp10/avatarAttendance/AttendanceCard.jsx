@@ -1,5 +1,4 @@
 import React from 'react';
-import './AttendanceCard.css'
 
 const students = [
     {id: 1, name: "윤이나", grade: 3, major: "컴퓨터공학", avatar: "https://randomuser.me/api/portraits/men/1.jpg"},
