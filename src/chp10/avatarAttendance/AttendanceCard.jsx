@@ -1,5 +1,6 @@
 import React from 'react';
 import './AttendanceCard.css'
+import img1 from './img1.jfif'
 
 const students = [
     {id: 1, name: "윤이나", grade: 3, major: "컴퓨터공학", avatar: img1},
