@@ -22,11 +22,12 @@ import ConfirmButton2 from './chp08/ConfirmButton2';
 import ConfirmButton3 from './chp08/ConfirmButton3';
 import AppNumberList from './chp10/AppNumberList';
 import StudentAttendance from './chp10/StudentAttendance';
+import AppStudentAttendance from './chp10/AppStudentAttendance';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StudentAttendance />
+    <AppStudentAttendance />
   </React.StrictMode>
 );
 
