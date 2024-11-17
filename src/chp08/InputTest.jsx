@@ -1,6 +1,6 @@
 function InputTest() {
     function handleChange(event) {
-        Console.log("입력된 값 : ", event.target.value)
+        console.log("입력된 값 : ", event.target.value)
     }
 
     return(
