@@ -7,13 +7,11 @@ function ConfirmButton(props){
         setIsConfirmed((prevIsConfirmed) => !prevState.isConfirmed)
     }
 
-    render() {
         return(
             <button onClick={handleConfirm} disabled={isConfirmed}>
                 ConfirmButton3 {isConfirmed? "확인됨" : "확인하기"}
             </button>
         )
     }
-}
 
-export default ConfirmButton;
+export default ConfirmButton3;
