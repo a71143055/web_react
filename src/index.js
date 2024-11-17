@@ -17,11 +17,12 @@ import Toggle2 from './chp08/Toggle2';
 import ClickButton from './chp08/ClickButton';
 import Counter from './chp08/Counter';
 import InputTest from './chp08/InputTest';
+import ConfirmButton from './chp08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <InputTest />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
