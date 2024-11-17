@@ -19,11 +19,12 @@ import Counter from './chp08/Counter';
 import InputTest from './chp08/InputTest';
 import ConfirmButton from './chp08/ConfirmButton';
 import ConfirmButton2 from './chp08/ConfirmButton2';
+import ConfirmButton3 from './chp08/ConfirmButton3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton2 />
+    <ConfirmButton3 />
   </React.StrictMode>
 );
 
