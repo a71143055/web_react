@@ -25,11 +25,12 @@ import StudentAttendance from './chp10/StudentAttendance';
 import AppStudentAttendance from './chp10/AppStudentAttendance';
 // import AttendanceCard from './chp10/AttendanceCard';
 import AttendanceCard from './chp10/avatarAttendance/AttendanceCard'
+import NameForm from "./chp11/NameForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AttendanceCard />
+    <NameForm />
   </React.StrictMode>
 );
 
